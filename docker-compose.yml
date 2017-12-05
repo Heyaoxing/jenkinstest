@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  jenkinstest:
+    image: jenkinstest
+    build:
+      context: .
+      dockerfile: Dockerfile
